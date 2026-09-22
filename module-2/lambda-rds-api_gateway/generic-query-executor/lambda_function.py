@@ -88,10 +88,10 @@ def get_secret(secret_name: str) -> Dict[str, Any]:
     # -----------------------------------------------------
     # Return cached credentials if already available
     # -----------------------------------------------------
-    secret_name = "dev/genai/mysql"
+    secret_name = "dev/genai/mysql1"
     if cached_credentials:
         logger.info(
-            f"Using cached credentials for secret: {secret_name}"
+            f"Using cached credentials for secret from AWS: {secret_name}"
         )
         return cached_credentials
 
