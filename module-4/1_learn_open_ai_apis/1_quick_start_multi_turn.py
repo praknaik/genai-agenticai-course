@@ -17,7 +17,9 @@ The examples in this file demonstrate:
 
 import os
 from openai import OpenAI
+from dotenv import load_dotenv
 
+load_dotenv()
 
 # Initialize OpenAI client
 client = OpenAI()
@@ -54,7 +56,6 @@ def ask_ai(model: str = "gpt-4o") -> str:
 # ----------------------------------------------------------------
 
 if __name__ == "__main__":
-    
 
     while True:
         user_input = input("\nYour prompt: ")

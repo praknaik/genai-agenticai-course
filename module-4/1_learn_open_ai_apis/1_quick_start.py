@@ -72,23 +72,23 @@ if __name__ == "__main__":
     print("-"*70)
     
     # Example 1: Simple question
-    print("\nExample 1: Simple Question")
-    print("-" * 70)
-    response = ask_ai("What is machine learning? Explain in 2 sentences.",model='gpt-5.2')
-    print(response)
-    
-    # # Example 2: Classification
-    # print("\n\nExample 2: Text Classification")
+    # print("\nExample 1: Simple Question")
     # print("-" * 70)
-    # prompt = """
-    # Classify this review as POSITIVE, NEGATIVE, or NEUTRAL:
-    # "The product works but arrived 2 weeks late. Quality is good though."
-    #
-    # Answer with just the classification.
-    # """
-    # response = ask_ai(prompt)
+    # response = ask_ai("What is machine learning? Explain in 2 sentences.",model='gpt-5.2')
     # print(response)
-    #
+    
+    # Example 2: Classification
+    print("\n\nExample 2: Text Classification")
+    print("-" * 70)
+    prompt = """
+    Classify this review as POSITIVE, NEGATIVE, or NEUTRAL:
+    "The product works but arrived 2 weeks late. Quality is good though."
+
+    Answer with just the classification.
+    """
+    response = ask_ai(prompt)
+    print(response)
+
     # # Example 3: Content Generation
     # print("\n\nExample 3: Content Generation")
     # print("-" * 70)
