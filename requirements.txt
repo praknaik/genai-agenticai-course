@@ -46,3 +46,4 @@ wcwidth==0.8.2
 pymysql
 botocore
 boto3
+openai
