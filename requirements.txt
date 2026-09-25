@@ -47,3 +47,5 @@ pymysql
 botocore
 boto3
 openai
+pandas
+docling
