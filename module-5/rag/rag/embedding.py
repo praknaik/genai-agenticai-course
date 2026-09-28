@@ -93,6 +93,7 @@ def embed(texts: list[str], use_cache: bool = True, verbose: bool = False) -> np
                 response = client.embeddings.create(
                     model=EMBED_MODEL, input=[texts[i] for i in indices]
                 )
+                print("embeddings created ==============")
                 break
             except Exception:
                 # Rate limits and transient network errors both land here. Four
