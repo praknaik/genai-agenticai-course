@@ -49,3 +49,4 @@ boto3
 openai
 pandas
 docling
+langchain
