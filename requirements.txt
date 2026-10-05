@@ -50,3 +50,6 @@ openai
 pandas
 docling
 langchain
+
+langchain-mcp-adapters
+langchain-community
